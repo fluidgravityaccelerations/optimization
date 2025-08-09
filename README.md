@@ -4,7 +4,7 @@
 
 Differential evolutionary algorithm on CPU.
 
-- **Featuresm**  
+- **Features**  
   - **Initialization**: Population `pop` is initialized uniformly within the specified bounds.
   - **Mutation**: Three distinct vectors `a`, `b`, `c` are picked from the population and generate $v=x_a+F\cdot (x_b-x_c)$ which is the classic rand/1 mutation strategy..
   - **Crossover**: Binomial crossover is applied via a mask `cross_points`, with at least one dimension forced to mutate.
